@@ -8,7 +8,8 @@
 
 1. [Configurando conexão VScode com Github](https://github.com/SjrPovoas/Cafe-com-Povoas/#1-configurando-conexao-vscode-com-github)
 2. [Tecnologias Usadas](https://github.com/SjrPovoas/Cafe-com-Povoas/#2-tecnologias-usadas)
-3. [Conheça o Time](#3-conheca-o-time)
+3. [Recursos Utilizados na parte Visual](https://github.com/SjrPovoas/Cafe-com-Povoas/#3-recursos-utilizados-na-parte-visual)
+4. [Conheça o Time](https://github.com/SjrPovoas/Cafe-com-Povoas/#4-conheca-o-time)
 
 </br>
  
@@ -53,11 +54,20 @@
 
 </br>
 
-## 3. CONHEÇA O TIME
+## 3. RECURSOS UTILIZADOS NA PARTE VISUAL
+
+- FONTS
+  - [Google Fonts](https://fonts.google.com/)
+- BOTÕES
+  - [icons8](https://icons8.com/)
+
+</br>
+
+## 4. CONHEÇA O TIME
 
 |Name   | Title | Linkedin | X/Twitter | GitHub |     
 |-------|-----------|----------|-----------|--------|
-| Silvio Povoas | Fundador | [sjrpovoas](https://www.linkedin.com/in/sjrpovoas/) | [sjrpovoas](x.com/sjrpovoas) | [SjrPovoas](https://github.com/SjrPovoas) |
+| Silvio Povoas | Desenvolvedor e Fundador | [sjrpovoas](https://www.linkedin.com/in/sjrpovoas/) | [sjrpovoas](x.com/sjrpovoas) | [SjrPovoas](https://github.com/SjrPovoas) |
 
 </br>
 
