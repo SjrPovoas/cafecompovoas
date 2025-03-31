@@ -1,5 +1,18 @@
-<h2>CAFÉ COM POVOAS</h2>
-<p></p><b>CONFIGURANDO CONEXÃO VSCODE COM GITHUB</b></p>
+# <p align="center">CAFÉ COM POVOAS</p>
+## <p id="#sobre">SOBRE O PROJETO</p>
+ Site desenvolvido para comércio Web2 e muito importante para nossa Start Up SjrPovoaS.</p>
+
+</br>
+
+ ### Sumário
+
+1. [Configurando conexão VScode com Github](https://github.com/SjrPovoas/Cafe-com-Povoas/#1-configurando-conexao-vscode-com-github)
+2. [Tecnologias Usadas](https://github.com/SjrPovoas/Cafe-com-Povoas/#2-tecnologias-usadas)
+3. [Conheça o Time](#3-conheca-o-time)
+
+</br>
+ 
+ ## 1. CONFIGURANDO CONEXÃO VSCODE COM GITHUB
 
 <p>Para clonar esse Projeto, use:</p>
 <ul>
@@ -27,3 +40,25 @@
 <ul>
   <li>git push --set-upstream origin Main <i>(ou o nome da branch que você deseja, por ex: segunda-branch)</i></li>
 </ul>
+
+</br>
+
+## 2. TECNOLOGIAS USADAS
+
+- FRONTEND
+  - HTML
+  - CSS
+- BACKEND
+  - JAVASCRIPT
+
+</br>
+
+## 3. CONHEÇA O TIME
+
+|Name   | Title | Linkedin | X/Twitter | GitHub |     
+|-------|-----------|----------|-----------|--------|
+| Silvio Povoas | Fundador | [sjrpovoas](https://www.linkedin.com/in/sjrpovoas/) | [sjrpovoas](x.com/sjrpovoas) | [SjrPovoas](https://github.com/SjrPovoas) |
+
+</br>
+
+&COPY; 2025 SjrPovoaS
