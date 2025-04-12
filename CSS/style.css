@@ -57,7 +57,66 @@ section {
     padding-bottom: 0.5rem;
     font-size: 2rem;
 }
+/* Menu para smartphone - Início */
+.menu-mobile {
+    display: none;
+}
+.menu-mobile {
+    display: block;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0;
+    background-color: var(--main-color);
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 109px;
+    text-align:center;
+    padding: 30px 0 750px 0;
+    line-height: 60px;
+    font-size: 26pt;
+    width: 100%;
+    height: 20pt;
+    visibility: hidden;
+    transition: .5s;
+    overflow: hidden;
+}
+/* Menu para smartphone - Final */
 
+/* Botão Menu Hamburguer para Smartphone - Início */
+#btn-menu {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid  rgb(241, 234, 234);
+    border-radius: 30px;
+    transition: .2s;
+    display: none;
+}
+.linha {
+    position: relative;
+    height: 3px;
+    background:  rgb(241, 234, 234);
+    width: 25px;
+    display: block;
+    margin: 5px auto 5px;
+    transform-origin: center;
+    transition: .2s;
+}
+#btn-menu.ativo .linha:nth-child(1){
+    transform: translateY(8px) rotate(-45deg);
+    background-color:  rgb(241, 234, 234);
+}
+#btn-menu.ativo .linha:nth-child(3){
+    transform: translateY(-8px) rotate(45deg);
+    background-color: rgb(241, 234, 234);
+}
+#btn-menu.ativo .linha:nth-child(2){
+    width: 0;
+}
+/* Botão Menu Hamburguer para Smartphone - Final */
 .icons img {
     margin: 1rem;
     cursor: pointer;
@@ -70,7 +129,7 @@ section {
 
 .btn {
     background: var(--main-color);
-    color: white;
+    color:  rgb(241, 234, 234);
     padding: 1rem 3rem;
     font-size: 1.7rem;
     cursor: pointer;
@@ -117,26 +176,38 @@ section {
     text-transform: uppercase;
     margin-bottom: 4rem;
 }
-
 .title span {
     color: white;
     text-transform: uppercase;
 }
 
+.title2 {
+    font-size: 2rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+.title2 span {
+    color: white;
+    text-transform: uppercase;
+}
+
 .about .row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     align-items: center;
     background-color: var(--black);
     gap: 1.5rem;
 }
 
 .about .row .content {
-    padding: 2rem;
+    padding: 0rem 0rem 2rem 12rem;
 }
 
 .about .row .content h3 {
-font-size: 3rem;
-color: white;
+    font-size: 3rem;
+    color: white;
 }
 
 .about .row .content p {
@@ -242,4 +313,9 @@ color: white;
 
 #home, #about, #menu, #review {
     padding-top: 11rem;
+}
+
+iframe {
+    max-width: 100%;
+    border-width: unset;
 }

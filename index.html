@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -23,11 +24,25 @@
             <nav class="navbar">
                 <a href="#home">Home</a>
                 <a href="#about">Sobre</a>
-                <a href="#menu">Menu</a>
+                <a href="#menu">Nosso Menu</a>
                 <a href="#review">Avaliações</a>
                 <a href="#address">Endereço</a>
             </nav>
 
+            <button onclick="animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <a href="#home">Home</a><br>
+                <a href="#about">Sobre</a><br>
+                <a href="#menu">Menu</a><br>
+                <a href="#review">Avaliações</a><br>
+                <a href="#address">Endereço</a><br>
+            </div>
+            
             <div class="icons">
                 <a href="https://api.whatsapp.com/send?phone=5561981885715&text=Ol%C3%A1%20peguei%20seu%20contato%20no%20site"
                     target="_blank">
@@ -46,7 +61,7 @@
     <div class="home-container" id="home">
         <section>
             <div class="content">
-                <h3>TRABALHE COM O MELHOR CAFÉ DA REGIÃO</h3>
+                <h3>BEBA O MELHOR CAFÉ DA REGIÃO</h3>
                 <p>Possuimos algumas parcerias com micro-produtores da região sudeste e nordeste e buscamos excelentes
                     parcerias para ampliar ainda mais nosso negócio.</p>
                 <a href="https://api.whatsapp.com/send?phone=5561981885715&text=Ol%C3%A1%20peguei%20seu%20contato%20no%20site"
@@ -129,9 +144,7 @@
 
             <div class="box">
                 <img src="/img/quote-img.png" alt="comentario">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit perferendis nobis placeat fugiat illum
-                    eveniet pariatur eaque itaque. Beatae consequatur incidunt molestiae facere, laborum laboriosam nam
-                    quibusdam voluptatem. Veniam, modi.</p>
+                <p>Gosto de estar lá com eles e beber um café gostoso. Ambiente tranquilo e arejado.</p>
                 <img src="/img/pic-1.png" alt="foto-cliente" class="user">
                 <p>João Victor</p>
                 <div class="stars">
@@ -149,9 +162,7 @@
             </div>
             <div class="box">
                 <img src="/img/quote-img.png" alt="comentario">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit perferendis nobis placeat fugiat illum
-                    eveniet pariatur eaque itaque. Beatae consequatur incidunt molestiae facere, laborum laboriosam nam
-                    quibusdam voluptatem. Veniam, modi.</p>
+                <p>Passar o tempo bebendo um bom café é o meu hobby. Amei o café e achei o local maravilhoso para trabalhar também.</p>
                 <img src="/img/pic-2.png" alt="foto-cliente" class="user">
                 <p>Vanessa Picker</p>
                 <div class="stars">
@@ -169,9 +180,7 @@
             </div>
             <div class="box">
                 <img src="/img/quote-img.png" alt="comentario">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit perferendis nobis placeat fugiat illum
-                    eveniet pariatur eaque itaque. Beatae consequatur incidunt molestiae facere, laborum laboriosam nam
-                    quibusdam voluptatem. Veniam, modi.</p>
+                <p>Fui com minha amiga e fomos muito bem recebidos. Atendimento foi agradável. Voltarei mais vezes.</p>
                 <img src="/img/pic-3.png" alt="foto-cliente" class="user">
                 <p>Rodrigo Moni</p>
                 <div class="stars">
@@ -194,10 +203,11 @@
     <section class="address" id="address">
         <h2 class="title">Nosso <span>Endereço</span></h2>
 
-        <iframe
+        <iframe class="iframe-address"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61336.79756646009!2d-47.98139713690479!3d-16.088832770056364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9359856419863d97%3A0x8d10109e23da357a!2sCafeteria%20Central!5e0!3m2!1spt-BR!2sbr!4v1743450954450!5m2!1spt-BR!2sbr"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </section>
 
     <section class="footer">
@@ -208,9 +218,13 @@
                 alt="facebook-new" />
             <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/twitterx--v2.png"
                 alt="twitterx--v2" />
-        </div>
-    </section>
+            <h4 class="title2">&copy; 2025 <span>SjrPovoaS</span></h4>
+            </div>
 
+    </section>
+    <!-- Animar.js-->
+    <script src="js/animar.js"></script>
+    <!-- /Animar-->
 </body>
 
 </html>
