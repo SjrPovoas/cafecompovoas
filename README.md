@@ -67,9 +67,10 @@
 
 ## 4. CONHEÇA O TIME
 
-|Name   | Title | GitHub | Linkedin | X/Twitter | Instagram |     
-|-------|-----------|----------|-----------|--------|
-| Silvio Povoas | Desenvolvedor e Fundador | [Link](https://github.com/SjrPovoas) | [Link](https://www.linkedin.com/in/sjrpovoas/) | [Link](x.com/sjrpovoas) | [Link](https://www.instagram.com/silviopovoasjunior/) |
+Nome | Título | Linkedin | X/Twitter | GitHub | Instagram
+---|---|---|---|---|---
+Silvio Povoas | Desenvolvedor e Fundador | [link](https://www.linkedin.com/in/sjrpovoas) | [link](https://www.x.com/sjrpovoas) | [link](https://github.com/SjrPovoas) | [link](https://www.instagram.com/silviopovoasjunior)
+***
 
 </br>
 
