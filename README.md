@@ -60,14 +60,16 @@
   - [Google Fonts](https://fonts.google.com/)
 - BOTÕES
   - [icons8](https://icons8.com/)
+- GERADOR DE LINK DE WHATSAPP
+  - [Zap Convertte](https://zap.convertte.com.br/gerador-link-whatsapp/)
 
 </br>
 
 ## 4. CONHEÇA O TIME
 
-|Name   | Title | Linkedin | X/Twitter | GitHub |     
+|Name   | Title | GitHub | Linkedin | X/Twitter | Instagram |     
 |-------|-----------|----------|-----------|--------|
-| Silvio Povoas | Desenvolvedor e Fundador | [sjrpovoas](https://www.linkedin.com/in/sjrpovoas/) | [sjrpovoas](x.com/sjrpovoas) | [SjrPovoas](https://github.com/SjrPovoas) |
+| Silvio Povoas | Desenvolvedor e Fundador | [Link](https://github.com/SjrPovoas) | [Link](https://www.linkedin.com/in/sjrpovoas/) | [Link](x.com/sjrpovoas) | [Link](https://www.instagram.com/silviopovoasjunior/) |
 
 </br>
 
