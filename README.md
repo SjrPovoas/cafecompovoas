@@ -19,8 +19,6 @@
 👋 Bem-vindo ao repositório!
 Se encontrar algum problema ou tiver alguma dúvida, por favor compartilhe conosco na aba [discussões/issues](https://github.com/SjrPovoas/Cafe-com-Povoas/issues).
 
-**Para clonar esse Projeto, use:**
-
 1. [Configurando conexão VScode com Github](https://github.com/SjrPovoas/Cafe-com-Povoas/#1-configurando-conexao-vscode-com-github)
 2. [Tecnologias Usadas](https://github.com/SjrPovoas/Cafe-com-Povoas/#2-tecnologias-usadas)
 3. [Recursos Utilizados na parte Visual](https://github.com/SjrPovoas/Cafe-com-Povoas/#3-recursos-utilizados-na-parte-visual)
@@ -28,6 +26,7 @@ Se encontrar algum problema ou tiver alguma dúvida, por favor compartilhe conos
 ---
 ## 1. CONFIGURANDO CONEXÃO VSCODE COM GITHUB
 
+**Para clonar esse Projeto, use:**
 ```
   git clone https://github.com/SjrPovoas/Cafe-com-Povoas.git
 ``` 
