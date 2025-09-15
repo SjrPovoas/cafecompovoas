@@ -1,7 +1,7 @@
 # <p align="center">CAFÉ COM POVOAS</p>
 
 ## SOBRE O PROJETO
- Site desenvolvido para comércio Web2 e muito importante para nossa Start Up SjrPovoaS.
+ Site desenvolvido para comércio Web2 na [SjrPovoaS](https://github.com/SjrPovoas).
 
 ## CONECTE-SE COMIGO
 <div>
@@ -19,6 +19,8 @@
 👋 Bem-vindo ao repositório!
 Se encontrar algum problema ou tiver alguma dúvida, por favor compartilhe conosco na aba [discussões/issues](https://github.com/SjrPovoas/Cafe-com-Povoas/issues).
 
+**Para clonar esse Projeto, use:**
+
 1. [Configurando conexão VScode com Github](https://github.com/SjrPovoas/Cafe-com-Povoas/#1-configurando-conexao-vscode-com-github)
 2. [Tecnologias Usadas](https://github.com/SjrPovoas/Cafe-com-Povoas/#2-tecnologias-usadas)
 3. [Recursos Utilizados na parte Visual](https://github.com/SjrPovoas/Cafe-com-Povoas/#3-recursos-utilizados-na-parte-visual)
@@ -26,6 +28,9 @@ Se encontrar algum problema ou tiver alguma dúvida, por favor compartilhe conos
 ---
 ## 1. CONFIGURANDO CONEXÃO VSCODE COM GITHUB
 
+```
+  git clone https://github.com/SjrPovoas/Cafe-com-Povoas.git
+``` 
 ### 1. Verifique a configuração do Git
 Antes de fazer login, é importante verificar se você configurou seu nome de usuário e endereço de e-mail no Git.
 
