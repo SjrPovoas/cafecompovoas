@@ -71,16 +71,22 @@ section {
     backdrop-filter: blur(25px);
     position: absolute;
     top: 125px;
-    left: 4%;
+    left: 0.1px;
     text-align:left;
-    padding: 5% 0;
-    line-height:3rem;
+    padding: 6% 3% 0.5% 0.5%;
+    line-height: 4.5rem;
     font-size: 26pt;
     width: 100%;
     height: 20pt;
     visibility: hidden;
-    transition: .5s;
+    transition: .4s;
     overflow: hidden;
+}
+
+.menu-mobile a:hover {
+    font-size: 30pt;
+    color: white;
+    transition: .2s;
 }
 /* Menu para smartphone - Final */
 
@@ -288,7 +294,7 @@ section {
 }
 
 .address {
-    display: flex;
+    display: grid;
     align-items: center;
     flex-direction: column; 
 }
@@ -316,7 +322,9 @@ section {
     padding-top: 11rem;
 }
 
-iframe {
-    max-width: 100%;
+.address {
+    display: flex;
+    grid-template-columns: none;
+    align-items:center;
     border-width: unset;
 }

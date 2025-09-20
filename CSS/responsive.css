@@ -35,8 +35,8 @@
         max-width: 100%;
     }
     
-
-    iframe {
+    .address {
+        display: flexbox;
         max-width: 100%;
     }
 
