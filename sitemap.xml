@@ -1,0 +1,26 @@
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://cafecompovoas.vercel.app/</loc>
+  <image:image>
+     <image:loc>https://cafecompovoas.vercel.app/img/home-img.jpg</image:loc>
+     <image:title>hero Café com Povoas</image:title>
+  </image:image>
+  <lastmod>2025-09-19T17:24:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cafecompovoas.vercel.app/index.html</loc>
+  <image:image>
+     <image:loc>https://cafecompovoas.vercel.app/img/home-img.jpg</image:loc>
+     <image:title>hero Café com Povoas</image:title>
+  </image:image>
+  <lastmod>2025-09-19T17:24:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+</urlset>

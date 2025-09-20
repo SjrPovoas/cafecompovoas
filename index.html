@@ -3,13 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/responsive.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="title" content="Café com Povoas">
+    <meta name="author" content="SjrPovoaS">
+    <meta name="description" content="O melhor café da região">
+    <meta name="Keywords" content="café com povoas, melhor café da região">
+    <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+    <meta name="googlebot" content="index,follow">
+    <meta name="google-site-verification" content="x" />
+    <link rel="icon" sizes="192x192" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="mask-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css" media="screen">
+    <link rel="canonical" href="https://cafecompovoas.vercel.app">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- CSP --><!-- /CSP-->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Café com Povoas">
+    <meta property="og:url" content="https://cafecompovoas.vercel.app">
+    <meta property="og:image:secure_url" itemprop="image" content="https://cafecompovoas.vercel.app/img/menu-5.png">
+    <meta property="og:title" content="Café com Povoas">
+    <meta property="og:description" content="O melhor café da região">  
     <title>Café com Povoas</title>
 </head>
 
@@ -22,33 +46,31 @@
             </a>
 
             <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">Sobre</a>
-                <a href="#menu">Nosso Menu</a>
-                <a href="#review">Avaliações</a>
-                <a href="#address">Endereço</a>
+                <a href="#home" aria-label="home">Home</a>
+                <a href="#about" aria-label="about">Sobre</a>
+                <a href="#menu" aria-label="menu">Nosso Menu</a>
+                <a href="#review" aria-label="review">Avaliações</a>
+                <a href="#address" aria-label="address">Endereço</a>
             </nav>
 
-            <button onclick="animarMenu()" id="btn-menu">
+            <button onclick="animarMenu()" id="btn-menu" aria-label="btn-menu">
                 <span class="linha"></span>
                 <span class="linha"></span>
                 <span class="linha"></span>
             </button>
 
             <div class="menu-mobile" id="menu-mobile">
-                <a href="#home">Home</a><br>
-                <a href="#about">Sobre</a><br>
-                <a href="#menu">Menu</a><br>
-                <a href="#review">Avaliações</a><br>
-                <a href="#address">Endereço</a><br>
+                <a href="#home" aria-label="home">Home</a><br>
+                <a href="#about" aria-label="about">Sobre</a><br>
+                <a href="#menu" aria-label="menu">Nosso Menu</a><br>
+                <a href="#review" aria-label="review">Avaliações</a><br>
+                <a href="#address" aria-label="address">Endereço</a><br>
             </div>
 
             <div class="icons">
-                <!--<a href="inserirlinkaqui" target="_blank"> -->
                 <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
                     alt="search--v1" />
                 </a>
-                <!--<a href="inserirlinkaqui" target="_blank"> -->
                 <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
                     alt="shopping-cart--v1" />
                 </a>
@@ -63,7 +85,7 @@
                 <p>Possuimos algumas parcerias com micro-produtores da região sudeste e nordeste e buscamos excelentes
                     parcerias para ampliar ainda mais nosso negócio.</p>
                 <a href="https://wa.me/5561981885715?text=Oi!%20*Caf%C3%A9%20com%20Povoas*%20%E2%98%95%0AQueria%20saber%20mais%20detalhes%20das%20suas%20parcerias.%20%0AVamos%20agendar%20uma%20data%3F%0A"
-                    target="_blank" class="btn">Mais detalhes</a>
+                    target="_blank" aria-label="mais-detalhes" class="btn">Mais detalhes</a>
             </div>
         </section>
     </div>
@@ -81,7 +103,7 @@
                 <p>As regiões do Brasil que mais produzem café especial são o Sul de Minas, a Mantiqueira de Minas, a
                     Mogiana Paulista, a Chapada Diamantina e o Cerrado Mineiro.</p>
                 <a href="https://wa.me/5561981885715?text=Oi!%20*Caf%C3%A9%20com%20Povoas*%20%E2%98%95%0AQueria%20saber%20mais%20detalhes%20sobre%20o%20que%20faz%20o%20Caf%C3%A9%20com%20Povoas%20especial.%0APode%20me%20contar%3F%0A"
-                    target="_blank" class="btn">Saiba Mais</a>
+                    target="_blank" aria-label="saiba-mais" class="btn">Saiba Mais</a>
             </div>
         </div>
     </section>
@@ -95,42 +117,42 @@
                 <h3>Café Latte</h3>
                 <div class="price">R$ 19,99 <span>R$ 25,49</span></div>
                 <a href="https://wa.me/5561981885715?text=*Caf%C3%A9%20com%20Povoas*%0AQuero%20fazer%20um%20pedido%3A%0A01%20Caf%C3%A9%20Latte%20de%20R%2425%2C49%20por%20R%2419%2C99%20%E2%98%95%0A"
-                    target="_blank" class="btn">Adicione ao Carrinho</a>
+                    target="_blank" aria-label="adicione-ao-carrinho" class="btn">Adicione ao Carrinho</a>
             </div>
             <div class="box">
                 <img src="/img/menu-2.png" alt="item-2">
                 <h3>Café Expresso</h3>
                 <div class="price">R$ 12,49 <span>R$ 19,99</span></div>
                 <a href="https://wa.me/5561981885715?text=*Caf%C3%A9%20com%20Povoas*%0AQuero%20fazer%20um%20pedido%3A%0A01%20Caf%C3%A9%20Expresso%20de%20R%2419%2C99%20por%20R%2412%2C49%20%E2%98%95%0A"
-                    target="_blank" class="btn">Adicione ao Carrinho</a>
+                    target="_blank" aria-label="adicione-ao-carrinho" class="btn">Adicione ao Carrinho</a>
             </div>
             <div class="box">
                 <img src="/img/menu-3.png" alt="item-3">
                 <h3>Café com Leite</h3>
                 <div class="price">R$ 9,99 <span>R$ 10,99</span></div>
                 <a href="https://wa.me/5561981885715?text=*Caf%C3%A9%20com%20Povoas*%0AQuero%20fazer%20um%20pedido%3A%0A01%20Caf%C3%A9%20com%20Leite%20de%20R%2410%2C99%20por%20R%249%2C99%20%E2%98%95%0A"
-                    target="_blank" class="btn">Adicione ao Carrinho</a>
+                    target="_blank" aria-label="adicione-ao-carrinho" class="btn">Adicione ao Carrinho</a>
             </div>
             <div class="box">
                 <img src="/img/menu-4.png" alt="item-4">
                 <h3>Café Americano</h3>
                 <div class="price">R$ 14,99 <span>R$ 17,99</span></div>
                 <a href="https://wa.me/5561981885715?text=*Caf%C3%A9%20com%20Povoas*%0AQuero%20fazer%20um%20pedido%3A%0A01%20Caf%C3%A9%20Americano%20de%20R%2417%2C99%20por%20R%2414%2C99%20%E2%98%95%0A"
-                    target="_blank" class="btn">Adicione ao Carrinho</a>
+                    target="_blank" aria-label="adicione-ao-carrinho" class="btn">Adicione ao Carrinho</a>
             </div>
             <div class="box">
                 <img src="/img/menu-5.png" alt="item-5">
                 <h3>Café Cappuccino</h3>
                 <div class="price">R$ 14,99 <span>R$ 17,99</span></div>
                 <a href="https://wa.me/5561981885715?text=*Caf%C3%A9%20com%20Povoas*%0AQuero%20fazer%20um%20pedido%3A%0A01%20Caf%C3%A9%20Cappuccino%20de%20R%2417%2C99%20por%20R%2414%2C99%20%E2%98%95%0A"
-                    target="_blank" class="btn">Adicione ao Carrinho</a>
+                    target="_blank" aria-label="adicione-ao-carrinho" class="btn">Adicione ao Carrinho</a>
             </div>
             <div class="box">
                 <img src="/img/menu-6.png" alt="item-6">
                 <h3>Café Macchiatto</h3>
                 <div class="price">R$ 22,49 <span>R$ 26,99</span></div>
                 <a href="https://wa.me/5561981885715?text=*Caf%C3%A9%20com%20Povoas*%0AQuero%20fazer%20um%20pedido%3A%0A01%20Caf%C3%A9%20Macchiatto%20de%20R%2426%2C99%20por%20R%2422%2C99%20%E2%98%95%0A"
-                    target="_blank" class="btn">Adicione ao Carrinho</a>
+                    target="_blank" aria-label="adicione-ao-carrinho" class="btn">Adicione ao Carrinho</a>
             </div>
         </div>
     </section>
@@ -211,11 +233,11 @@
 
     <section class="footer">
         <div class="midias-sociais">
-            <a href="https://www.instagram.com/silviopovoasjunior/" target="_blank"><img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"
+            <a href="https://www.instagram.com/silviopovoasjunior/" aria-label="instagram" target="_blank"><img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"
                 alt="instagram-new--v1" /></a>
-            <a href="https://www.linkedin.com/in/sjrpovoas" target="_blank"><img width="30" height="30" src="https://img.icons8.com/ios-filled/250/ffffff/linkedin-circled--v1.png"
+            <a href="https://www.linkedin.com/in/sjrpovoas" aria-label="linkedin" target="_blank"><img width="30" height="30" src="https://img.icons8.com/ios-filled/250/ffffff/linkedin-circled--v1.png"
                 alt="linkedin-circled--v1" /></a>
-            <a href="https://x.com/sjrpovoas" target="_blank"><img width="30" src="https://img.icons8.com/ios-filled/30/ffffff/twitterx--v2.png"
+            <a href="https://x.com/sjrpovoas" aria-label="twitter" target="_blank"><img width="30" src="https://img.icons8.com/ios-filled/30/ffffff/twitterx--v2.png"
                 alt="twitterx--v2" /></a>
 
             <h4 class="title2">&copy; 2025 <span>SjrPovoaS</span></h4>
