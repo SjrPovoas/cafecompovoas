@@ -219,7 +219,8 @@ section {
     align-items: center;
     flex-direction: column; }
 .footer {
-    text-align: center;}
+    text-align: center;
+    overflow: hidden;}
 .footer .midias-sociais {
     padding: .8rem;}
 .footer .midias-sociais img {
