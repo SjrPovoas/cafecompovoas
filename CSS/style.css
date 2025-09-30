@@ -236,3 +236,51 @@ section {
     grid-template-columns: none;
     align-items:center;
     border-width: unset;}
+@media screen and (max-width: 1024px) {
+    .about .row {
+        display: inline-block;
+        align-items: center;
+        background-color: var(--black);
+        gap: 1.5rem;    }    
+    .about .row .content {
+        padding: 02rem 2.5rem 2rem 21rem;}}
+@media screen and (max-width: 756px) {
+    .navbar, .icons {
+        display: none;}
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin:0;
+        width: 100%;
+        text-align:center;}
+    .about .row .content {
+        padding:0 2rem 2rem;}
+    .about .container-image img {
+        max-width: 100%;}
+        .address {
+        display: flexbox;
+        max-width: 100%;}
+    /* Menu mobile */
+    #btn-menu {
+        display: block;
+        cursor: pointer;}
+    .menu-mobile a {
+        cursor: pointer;
+	    flex-direction: column;
+        justify-content:baseline;
+        gap: 0;
+        color: rgb(241, 234, 234);
+        text-decoration: none;
+        padding: 10px 100% 10px 50px;
+        font-size: 2rem;
+        transition: .25s;}
+    .menu-mobile a:hover {
+        cursor: pointer;
+        color:#895013;
+        background-color: #000000ce;}
+    .menu-mobile.abrir {
+        visibility: visible;
+        height: calc(90vh - 20px);}}
